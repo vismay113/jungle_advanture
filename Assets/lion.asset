@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f60ce7d63dd46e4af41decbdb3d7fb, type: 3}
+  m_Name: lion
+  m_EditorClassIdentifier: 
+  storyText: "You see a lion looking for the food. Be careful not to be its food.
+    \n\n1. Distract the lion\n2. Fight the lion\n3. Go back\n\nPush Option number
+    to play further."
+  comingStates:
+  - {fileID: 11400000, guid: 961b99174967b494a836a7b0ec796b19, type: 2}
+  - {fileID: 11400000, guid: b1228638a293b4d53b5f70b7eb91b040, type: 2}
+  - {fileID: 11400000, guid: e89fc4eb3784146c193f1de7407766f7, type: 2}

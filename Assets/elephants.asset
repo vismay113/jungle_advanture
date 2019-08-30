@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f60ce7d63dd46e4af41decbdb3d7fb, type: 3}
+  m_Name: elephants
+  m_EditorClassIdentifier: 
+  storyText: "You see a group of Elephants. They are quite peaceful creatures. \n\n1.
+    Pass them\n2. Distract them\n3. Go back\n\nPush Option number to play further."
+  comingStates:
+  - {fileID: 11400000, guid: 4af82882887c44c8abe00dd4a359b2fe, type: 2}
+  - {fileID: 11400000, guid: f9d364671358248a5a3f201c0ac1b0a0, type: 2}
+  - {fileID: 11400000, guid: cb7e5d9a0a66d4a71b812e244238f90b, type: 2}

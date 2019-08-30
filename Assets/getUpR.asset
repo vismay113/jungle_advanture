@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f60ce7d63dd46e4af41decbdb3d7fb, type: 3}
+  m_Name: getUpR
+  m_EditorClassIdentifier: 
+  storyText: 'You are back where you started !
+
+
+    You find three way to move forward in front of you.
+
+
+    1. Go Left
+
+    2. Go Strait
+
+    3. Go Right
+
+
+    Choose your way !
+
+
+    Push Option number to play further.'
+  comingStates:
+  - {fileID: 11400000, guid: 484af9c9f3fee4f45a835cfa39fc55f8, type: 2}
+  - {fileID: 11400000, guid: 0ee3b043d30ae47cbb9234deea388132, type: 2}
+  - {fileID: 11400000, guid: 228264f1b9d994a119e698248906c11d, type: 2}

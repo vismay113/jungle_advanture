@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f60ce7d63dd46e4af41decbdb3d7fb, type: 3}
+  m_Name: croc
+  m_EditorClassIdentifier: 
+  storyText: "You are walking and you see a river. Now you see some crocodiles in
+    the river and few outside the river. \n\nWhat will you do ?\n\n1. Run pass the
+    crocodiles\n2. Wait for crocodiles to go back into the water\n3. Go back\n\nPush
+    Option number to play further."
+  comingStates:
+  - {fileID: 11400000, guid: 33961c1d8c0074c0caa7e4ad5f275421, type: 2}
+  - {fileID: 11400000, guid: 86f06f233b01e428eaf5080a26098b0b, type: 2}
+  - {fileID: 11400000, guid: cb7e5d9a0a66d4a71b812e244238f90b, type: 2}

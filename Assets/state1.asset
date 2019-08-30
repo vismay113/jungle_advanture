@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0f60ce7d63dd46e4af41decbdb3d7fb, type: 3}
+  m_Name: state1
+  m_EditorClassIdentifier: 
+  storyText: 'Ramesh is a father of son and daughter named Vismay and Ankita. They
+    were going to their river house for the vacation. But on the way, a pack of tigers
+    attacked them and they have to fight their way to home. While fighting with tigers
+    Rameh is died and 2 sibilings split away.
+
+
+    Your objective is to find your other sibling and make your way to river home.
+
+
+    Choose Your character
+
+
+    1. Vismay
+
+    2. Ankita
+
+
+    Push Option number to play further.'
+  comingStates:
+  - {fileID: 11400000, guid: db2c414f3e81543fe89122e5bff0b047, type: 2}
+  - {fileID: 11400000, guid: db2c414f3e81543fe89122e5bff0b047, type: 2}
